@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(224,255,255);
+    ;
+}
+#container {
+    display: grid;
+    grid-template-rows: repeat(3,200px);
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    text-align: center;
+}
+button {
+    font-size: 8rem;
+    font-weight: bold;
+    border: black solid 3px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(245, 215, 110, 1);
+}
+#db {
+    margin-top: 130px; 
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    border: black 5px solid;
+}
+.dbd {
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+}
+#rdb {
+    margin-top: 130px; 
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    border: black 5px solid;
+}
+#edb {
+    margin-top: 130px; 
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    border: black 5px solid;
+}
+.rb {
+    font-size: 5rem;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Tic tac toe AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "sketch.js" defer></script>
+</head>
+<body>
+    <div id = "db-container">
+    <dialog id = "db" open>
+        Choose to be X or O<br>(X first, O second)
+        <div class = dbd>
+        <button id = "X" onclick = "select('first')">X</button>
+        <button id = "O" onclick = "select('second')">O</button>
+    </div>
+</dialog>
+</div>
+<div id = "db-container">
+    <dialog id = "edb">
+       AI Wins!
+        <div class = dbd>
+        <button class = "rb" onclick = "start()">Reset</button>
+    </div>
+</dialog>
+</div>
+<div id = "db-container">
+    <dialog id = "rdb">
+       Tie!
+        <div class = dbd>
+        <button class = "rb" onclick = "start()">Reset</button>
+    </div>
+</dialog>
+</div>
+
+   <div id = "container">
+       <button class = "b" id = "0"></button>
+       <button class = "b" id = "1"></button>
+       <button class = "b" id = "2"></button>
+       <button class = "b" id = "3"></button>
+       <button class = "b" id = "4"></button>
+       <button class = "b" id = "5"></button>
+       <button class = "b" id = "6"></button>
+       <button class = "b" id = "7"></button>
+       <button class = "b" id = "8"></button>
+   </div>
+</body>
