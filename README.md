@@ -1,5 +1,5 @@
 # Tic-tac-toe-AI
-## tic-tac-toe AI built with minimax alogrithm, vallina JS
+## Unbeatable tic-tac-toe AI built with minimax alogrithm, vallina JS
 - dialogue use pracice
 - minimax alogrithm practice
 - html buttons
